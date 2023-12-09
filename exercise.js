@@ -53,3 +53,15 @@ showShoppingList()
 //output
 //["brócoli", "helado", "croqueta de papa"];
 
+
+
+function porcentajePropina(totalCuenta, porcentajePropina) {
+    var propina = (totalCuenta * porcentajePropina);
+    console.log("Si ves esto, esto solo ocurre después de que se calculó propina");
+    return console.log(propina);
+}
+
+
+porcentajePropina(140, .20);
+
+
